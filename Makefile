@@ -3,7 +3,7 @@
 
 ROOT_DIR=${CURDIR}
 LLVM_PROJ_DIR?=$(ROOT_DIR)/src/llvm-project
-PREFIX?=/opt/wasi-sdk
+PREFIX?=/usr/local/opt/wasi-sdk
 
 CLANG_VERSION=$(shell ./llvm_version.sh $(LLVM_PROJ_DIR))
 VERSION:=$(shell ./version.sh)
